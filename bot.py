@@ -1,18 +1,3 @@
-"""
-Smart PollEverywhere Bot (Cookie-based auth for UCR SSO)
-========================================================
-Monitors a PollEverywhere host for active polls and uses Claude
-to reason through the question and select the best answer.
-
-Since UCR uses SSO, this bot uses cookies exported from your browser
-session rather than direct login.
-
-SETUP:
-1. pip install requests anthropic browser-cookie3
-2. Log into PollEverywhere via UCR SSO in Chrome
-3. Run this script while Chrome is open (it grabs your session cookies)
-"""
-
 import re
 import json
 import time
